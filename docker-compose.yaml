@@ -8,12 +8,12 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - mariadb_data:/var/lib/mysql
+      - volume-db-event:/var/lib/mysql
     networks:
       - network-bandwidth
 
 volumes:
-  mariadb_data:
+  volume-db-event:
 
 networks:
   network-bandwidth:
