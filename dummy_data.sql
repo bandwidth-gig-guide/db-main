@@ -2077,8 +2077,8 @@ INSERT INTO Image (URL) VALUES
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO0bw_lFxYlrCyQUnkx_52_TLGijzrEEXKaw&s'), -- 37: Artist: 14: Dear Matilda
     ('https://assets-au-01.kc-usercontent.com/a74cc67d-6861-022b-4d6d-57679e9d331f/ab879295-e4e0-43a0-a832-fdd779deca2b/Tiarnie_edited.1_cropped.jpg'), -- 38: Artist: 15: Tiarnie
     ('https://assets-au-01.kc-usercontent.com/a74cc67d-6861-022b-4d6d-57679e9d331f/fe19a252-69ec-4d7a-bc10-ac55d8a5fe4d/Tiarnie_edited.4_cropped.jpg'), -- 39: Artist: 15: Tiarnie
-    (null), -- 40: Artist: 16: Get Jaxxed
-    (null), -- 41: Artist: 16: Get Jaxxed
+    ('test'), -- 40: Artist: 16: Get Jaxxed
+    ('test'), -- 41: Artist: 16: Get Jaxxed
     ('https://i.guim.co.uk/img/media/5f8f1b940a98cd63bd0e9923e6d2290b9ae00b62/0_96_2955_1774/master/2955.jpg?width=1200&quality=85&auto=format&fit=max&s=c521135b3cbe951bf00240459450bb9b'), -- 42: Artist: 17: GBH
     ('https://preview.redd.it/9vivmzk4a8bd1.jpeg?width=640&crop=smart&auto=webp&s=9225195ba782497dbe042ea38e9baf2f89e4a6c4'), -- 43: Artist: 17: GBH
     ('https://f4.bcbits.com/img/0036854321_10.jpg'), -- 44: Artist: 18: Destruktor
@@ -2098,10 +2098,10 @@ INSERT INTO Image (URL) VALUES
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWP5mQmxSe6A0GhQUb72v3DDAcKU8PH2KTg&s'), -- 53: Artist: 22: STALKER
     ('https://www.angrymetalguy.com/wp-content/uploads/2024/04/Austere-2024-500x468.jpg'), -- 54: Artist: 23: Austere
     ('https://www.metal-archives.com/images/9/9/1/8/99183_photo.jpg?3603'), -- 55: Artist: 23: Austere
-    (null), -- 56: Artist: 24: Skuggor
-    (null), -- 57: Artist: 24: Skuggor
+    ('test'), -- 56: Artist: 24: Skuggor
+    ('test'), -- 57: Artist: 24: Skuggor
     ('https://lastfm.freetls.fastly.net/i/u/ar0/c44e42874a3516e2f909dd7da1e3a399.jpg'), -- 58: Artist: 25: Paroxysmal Descent
-    (null), -- 59: Artist: 25: Paroxysmal Descent
+    ('test'), -- 59: Artist: 25: Paroxysmal Descent
     ('https://images.squarespace-cdn.com/content/v1/5e3ca101be5aa45028420f15/429f45ec-bfee-4d43-a96b-a3f585fbefb1/240306_RumJungle_Studio2564+copy.jpg'), -- 60: Artist: 26: Rum Jungle
     ('https://static.wixstatic.com/media/a27d24_e574aea716df4cd39a3d6c2ea9bb0628~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85,usm_0.66_1.00_0.01/a27d24_e574aea716df4cd39a3d6c2ea9bb0628~mv2.jpg'), -- 61: Artist: 26: Rum Jungle
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqYXhkyoPoO6EaKqzRoizFl0vTby_NIsARg&s'), -- 62: Artist: 27: Letters to Lions
@@ -2120,8 +2120,8 @@ INSERT INTO Image (URL) VALUES
     ('https://scenestr.com.au/images/k2articles/music/kurilpa-reach-create-music-that-makes-you-wanna-dance-20201104.jpg'), -- 75: Artist: 33: Kurilpa Reach
     ('https://i.guim.co.uk/img/media/5285a43838aad76be9b07e5e550beb874a247b6e/0_321_1918_1150/master/1918.jpg?width=465&dpr=1&s=none&crop=none'), -- 76: Artist: 34: Placebo
     ('https://static.wikia.nocookie.net/profileplacebo/images/7/7d/Placebo.jpg/revision/latest?cb=20100722015708'), -- 77: Artist: 34: Placebo
-    (null), -- 78: Artist: 35: Black Market Music // NOT A BAND. REPLACE
-    (null), -- 79: Artist: 35: Black Market Music
+    ('test'), -- 78: Artist: 35: Black Market Music // NOT A BAND. REPLACE
+    ('test'), -- 79: Artist: 35: Black Market Music
     ('https://i1.sndcdn.com/artworks-000304839612-bfjf2p-t500x500.jpg'), -- 80: Artist: 36: Gena Rose Bruce
     ('https://www.clashmusic.com/wp-content/uploads/2023/08/Gena-Rose-Bruce.jpg'), -- 81: Artist: 36: Gena Rose Bruce
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0t_pfM3AHzW0Nba-mQ4jrSJOn6LVnhp_1Gw&s'), -- 82: Artist: 37: Kristen Hersh
@@ -2136,8 +2136,8 @@ INSERT INTO Image (URL) VALUES
     ('https://images.ctfassets.net/yfwfvlr8bdv4/29m9cXkz16t2lq4EuL7VzL/b030fcfc52f2229346eda15dd6b11de6/HWC.jpg?h=2048'), -- 91: Artist: 41: Housewife’s Choice
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXExUbf_aFFugPLFkIz-yNUrM-KhhHBRIEVQ&s'), -- 92: Artist: 42: Troublemekka
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp8EXbuSjw9TDHtu5Hhrl91Zeajsci4Rp10A&s'), -- 93: Artist: 42: Troublemekka
-    (null), -- 94: Artist: 43: Itations
-    (null), -- 95: Artist: 43: Itations
+    ('test'), -- 94: Artist: 43: Itations
+    ('test'), -- 95: Artist: 43: Itations
     ('https://usercontent.one/wp/www.asbomagazine.com/wp-content/uploads/2024/07/Daily-J.jpg?media=1677589372'), -- 96: Artist: 44: DAILY J
     ('https://static.wixstatic.com/media/dc034f_7b599d606e38430a80cb8aa7ef8542fc~mv2.jpg/v1/fill/w_1000,h_575,al_c,q_85,usm_0.66_1.00_0.01/dc034f_7b599d606e38430a80cb8aa7ef8542fc~mv2.jpg'), -- 97: Artist: 44: DAILY J
     ('https://f4.bcbits.com/img/0029517990_10.jpg'), -- 98: Artist: 45: Faceless Burial
@@ -2174,8 +2174,8 @@ INSERT INTO Image (URL) VALUES
     ('https://pbs.twimg.com/media/FuuDFQUWwAA57j3?format=jpg&name=large'), -- 129: Artist: 60: The Beths
     ('https://f4.bcbits.com/img/0019751308_10.jpg'), -- 130: Artist: 61: Plastic Section
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn4md0xaLugg2t_YG_BgY36o6qhrbFreDoJA&s'), -- 131: Artist: 61: Plastic Section
-    (null), -- 132: Artist: 62: The Earthquakes
-    (null), -- 133: Artist: 62: The Earthquakes
+    ('test'), -- 132: Artist: 62: The Earthquakes
+    ('test'), -- 133: Artist: 62: The Earthquakes
     ('https://f4.bcbits.com/img/0026751202_10.jpg'), -- 134: Artist: 63: Fever Shack
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP7gm2J3BXRcIS7z4FslfHg0SMqNtUc3NDjQ&s'), -- 135: Artist: 63: Fever Shack
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUeaoLUEBF4nzP1yucWfukCjZHfxVkq53TSw&s'), -- 136: Artist: 64: No Way Out
@@ -2196,8 +2196,8 @@ INSERT INTO Image (URL) VALUES
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilJTZf1OOqExbjLM1L6HsJELJkG5BLsugVQ&s'), -- 151: Artist: 71: Delivery
     ('https://www.angrymetalguy.com/wp-content/uploads/2015/08/Deiphago_2015-500x333.jpg'), -- 152: Artist: 72: DEIPHAGO
     ('https://cdn-asia.uniteasia.org/uploads/2019/04/8862a68c-deiphago1.jpg'), -- 153: Artist: 72: DEIPHAGO
-    (null), -- 154: Artist: 73: Void Christ
-    (null), -- 155: Artist: 73: Void Christ
+    ('test'), -- 154: Artist: 73: Void Christ
+    ('test'), -- 155: Artist: 73: Void Christ
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RZaLTxfDRemkIi1hlY2uidoddhDp7_tLgA&s'), -- 156: Artist: 74: Gutalax
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pONrONK1hg6flLYvkF8OpnsCtwQdHCjcosbpAX8DF_CfHaxpWpQK2bd58siAgBNpE-E&usqp=CAU'), -- 157: Artist: 74: Gutalax
     ('https://fortemag.com.au/wp-content/uploads/2022/02/Partner-Look.jpg'), -- 158: Artist: 75: Lachlan Denton
@@ -2224,8 +2224,8 @@ INSERT INTO Image (URL) VALUES
     ('https://scenestr.com.au/images/stories/music/G/Gavin-Bowles-The-Distractions/Gavin-Bowles-and-The-Distractions-09-23.jpg'), -- 179: Artist: 85: Gavin Bowles & The Distractions
     ('https://yt3.googleusercontent.com/ytc/AIdro_nDZXSgrxFiczZjWLQ0aRHinWHqYRJnS6_51vpm0ks3aw4=s900-c-k-c0x00ffffff-no-rj'), -- 180: Artist: 86: Terra Rouge
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyrDf9hZqjjIDil-Ptu9D1yhurgeaSMrYig&s'), -- 181: Artist: 86: Terra Rouge
-    (null), -- 182: Artist: 87: Incident Response Select All
-    (null), -- 183: Artist: 87: Incident Response Select All
+    ('test'), -- 182: Artist: 87: Incident Response Select All
+    ('test'), -- 183: Artist: 87: Incident Response Select All
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5hSsFPz5PVBXV1xhwflXpOdEplcgFmo87bA&s'), -- 184: Artist: 88: B-sides
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs-dA4HIs8cG652zd05LhN6BR373yGqyCN1A&s'), -- 185: Artist: 88: B-sides
     ('https://images.squarespace-cdn.com/content/v1/53768d43e4b0875c4147ee9b/1408850980937-P4W3H3RKT8N2ARLVIEFI/Felony+2+%28B%26W%29.jpg?format=1000w'), -- 186: Artist: 89: FELONY.
@@ -2252,8 +2252,8 @@ INSERT INTO Image (URL) VALUES
     ('https://event-images.tixel.com/cdn-cgi/image/width=600,format=auto/media/images/b00d44d4943ffc22b73c62c0aba68185_1733710964_6703_s.jpg'), -- 207: Artist: 99: Pete McCredie
     ('https://thewoodlands.com.au/wp-content/uploads/2022/10/287825790_108136338602085_5714538711719378942_n.jpg'), -- 208: Artist: 100: No Sleep Till Texas
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSelEFJEVjPEsp9lGlUC5BOHN8U5C4Wtg84tw&s'), -- 209: Artist: 100: No Sleep Till Texas
-    (null), -- 210: Artist: 101: Firefly Horns
-    (null), -- 211: Artist: 101: Firefly Horns
+    ('test'), -- 210: Artist: 101: Firefly Horns
+    ('test'), -- 211: Artist: 101: Firefly Horns
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSobTgzk-kWP9y58P2hFljn6mDzOW5o-w-26t2grudCviLNmYpRihWU0v8OfC7jDTA4S8U&usqp=CAU'), -- 212: Artist: 102: David McCredie
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERy6LuZQcovQc7oN0WNJ6CywFFJXvaLNKfw&s'), -- 213: Artist: 102: David McCredie
     ('https://beat.com.au/wp-content/uploads/2024/04/Elly-McK-The-Unbelievers-at-Odessa-at-Levers-min.jpeg'), -- 214: Artist: 103: Elly McK & The Unbelievers
@@ -2274,8 +2274,8 @@ INSERT INTO Image (URL) VALUES
     ('https://d2ljoqkkoec4f6.cloudfront.net/wp-content/uploads/2021/09/07152347/ks3-545x750.jpg'), -- 229: Artist: 110: Kofi Stone
     ('https://www.metal-archives.com/images/3/5/4/0/3540497300_photo.jpg?2537'), -- 230: Artist: 20: Sufferance
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThvsmvvGsHnVLh3sLQ60OZ5JaK-znfFGuVKQqMU_w70lkPcEvsC_it5kT3hEt7X4PaJwk&usqp=CAU'), -- 231: Artist: 20: Sufferance
-    (null), -- 232: Artist: 21: ABIGAIL
-    (null), -- 233: Artist: 21: ABIGAIL
+    ('test'), -- 232: Artist: 21: ABIGAIL
+    ('test'), -- 233: Artist: 21: ABIGAIL
     ('https://avatar.iran.liara.run/public/34'); -- 234: User Image Matthew
 
 -- VenueImage
