@@ -8,9 +8,11 @@ on:
   push:
     branches:
       - main
+      - dev
   pull_request:
     branches:
       - main
+      - dev
 
 jobs:
   build:
@@ -20,17 +22,28 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Log in to GitHub Container Registry (GHCR)
+    - name: Log in to GitHub Container Registry
       uses: docker/login-action@v2
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Set version tag
+      run: |
+        if [[ $GITHUB_REF == "refs/heads/main" ]]; then 
+          echo "TAG=latest" >> $GITHUB_ENV
+        elif [[ $GITHUB_REF == "refs/heads/dev" ]]; then 
+          echo "TAG=dev" >> $GITHUB_ENV
+        else
+          echo "Branch is neither main nor dev. Skipping build and push." 
+          exit 0
+        fi
+
     - name: Build Docker image
       run: |
-        docker build -t ghcr.io/${{ github.repository_owner }}/database-event:latest .
+        docker build -t ghcr.io/${{ github.repository_owner }}/database-event:$TAG .
 
     - name: Push Docker image to GitHub Container Registry
       run: |
-        docker push ghcr.io/${{ github.repository_owner }}/database-event:latest
+        docker push ghcr.io/${{ github.repository_owner }}/database-event:$TAG
