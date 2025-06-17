@@ -1,4 +1,4 @@
-name: Call Reusable 'Build and Publish Docker Image' Action
+name: Call Reusable Action
 
 permissions:
   packages: write
@@ -17,3 +17,5 @@ on:
 jobs:
   build:
     uses: bandwidth-gig-guide/ci-workflows/.github/workflows/build-publish.yaml@main
+    with:
+      image_name: ${{ github.repository_name }}
