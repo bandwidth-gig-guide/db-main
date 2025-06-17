@@ -1,7 +1,7 @@
 FROM mariadb:latest
 
-ENV MYSQL_ROOT_PASSWORD=rootpassword
-ENV MYSQL_DATABASE=db-event
+ENV MARIADB_ROOT_PASSWORD=${PASSWORD}
+ENV MARIADB_DATABASE=${DB_NAME}
 
 COPY create_tables.sql /docker-entrypoint-initdb.d/
 COPY dummy_data.sql /docker-entrypoint-initdb.d/
