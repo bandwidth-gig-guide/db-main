@@ -272,7 +272,7 @@ INSERT INTO Artist (Title, Country, State, YearFounded, Description, SpotifyEmbe
         'Australia',
         'Victoria',
         2010,
-        'King Gizzard & the Lizard Wizard are an Australian rock band from Melbourne, Victoria. They are known for their prolific output and eclectic musical style.',
+        'King Gizzard & the Lizard Wizard are an Australian rock band from Melbourne, Victoria. They are knowƒn for their prolific output and eclectic musical style.',
         'https://open.spotify.com/embed/artist/6XYvaoDGE0VmRt83Jss9Sn',
         'https://www.youtube.com/embed/6f78_Tf4Tdk?si=4',
         1
@@ -2246,7 +2246,7 @@ INSERT INTO Image (URL) VALUES
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCr5bwGjjU-0SVve8WugeShMhX1QnDLzDnsg&s'), -- 201: Artist: 96: SPEED
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfF4OhZc8sybHX6MJTlJFNaLwjddhSACgkw&s'), -- 202: Artist: 97: 19-Twenty
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLXgJAqpq-1jq-BzLy-86zPMhYH1yDGu5ZA&s'), -- 203: Artist: 97: 19-Twenty
-    ('https://focus.independent.ie/thumbor/zETt_CwE0JVueJqq2LPaqUa6mPE=/0x956:2156x2395/960x640/prod-mh-ireland/53b81041-33a9-4550-8ae2-b20e7d324d83/90b917dd-8e21-4de9-9d69-8dbc1fc91515/f0ce0630-2f0c-4363-a025-a7752ebd42dc.jpg'), -- 204: Artist: 98: Gavin James
+    ('https://focus.independent.ie/thumbor/zETt_CwE0JVueJqq2LPaqUa6mPE=/0x956:2156x2395/960x640/fake.jpg'), -- 204: Artist: 98: Gavin James
     ('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqlSr_efymnyOqA2p-Iu6cV_2Ro4fcIQ_KA&s'), -- 205: Artist: 98: Gavin James
     ('https://assets-au-01.kc-usercontent.com/a74cc67d-6861-022b-4d6d-57679e9d331f/a12ee9cd-2f30-43e4-8c74-3db060a2b1e2/image.jpeg'), -- 206: Artist: 99: Pete McCredie
     ('https://event-images.tixel.com/cdn-cgi/image/width=600,format=auto/media/images/b00d44d4943ffc22b73c62c0aba68185_1733710964_6703_s.jpg'), -- 207: Artist: 99: Pete McCredie
