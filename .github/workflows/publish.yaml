@@ -19,33 +19,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Exit early if not push or PR event
-      run: |
-        if [[ "$GITHUB_EVENT_NAME" != "push" && "$GITHUB_EVENT_NAME" != "pull_request" ]]; then
-          exit 0
-        fi
-
-    - name: If push event, set tag or exit early.
+    - name: Set appropriate tag for push event.
       run: |
         if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
           if [[ "$GITHUB_REF" == "refs/heads/main" ]]; then
             echo "TAG=$TAG_PROD" >> $GITHUB_ENV
           elif [[ "$GITHUB_REF" == "refs/heads/dev" ]]; then
             echo "TAG=$TAG_DEV" >> $GITHUB_ENV
-          else
-            exit 0
           fi
         fi
 
-    - name: If PR event, set tag or exit early.
+    - name: Set appropriate tag for PR event.
       run: |
         if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
           if [[ "${{ github.event.pull_request.base.ref }}" == "main" ]]; then
             echo "TAG=$TAG_PROD" >> $GITHUB_ENV
           elif [[ "${{ github.event.pull_request.base.ref }}" == "dev" ]]; then
             echo "TAG=$TAG_DEV" >> $GITHUB_ENV
-          else
-            exit 0
           fi
         fi
 
