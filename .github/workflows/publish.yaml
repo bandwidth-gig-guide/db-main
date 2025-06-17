@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TAG_PROD=latest
-      TAG_DEV=dev
+      TAG_PROD: latest
+      TAG_DEV: dev
 
     steps:
     - name: Set appropriate tag for push event.
