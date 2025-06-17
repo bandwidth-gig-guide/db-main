@@ -31,10 +31,10 @@ jobs:
 
     - name: Set version tag
       run: |
-        BRANCH_NAME=${GITHUB_REF##*/}
-        if [[ "$BRANCH_NAME" == "main" ]]; then 
+        echo "GITHUB_REF: $GITHUB_REF"
+        if [[ $GITHUB_REF == "refs/heads/main" ]]; then 
           echo "TAG=latest" >> $GITHUB_ENV
-        elif [[ "$BRANCH_NAME" == "dev" ]]; then 
+        elif [[ $GITHUB_REF == "refs/heads/dev" ]]; then 
           echo "TAG=dev" >> $GITHUB_ENV
         else
           echo "Branch is neither main nor dev. Skipping build and push." 
