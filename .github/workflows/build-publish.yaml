@@ -1,4 +1,8 @@
-name: Build and Publish Docker Image
+name: Call Reusable 'Build and Publish Docker Image' Action
+
+permissions:
+  packages: write
+  contents: read
 
 on:
   push:
