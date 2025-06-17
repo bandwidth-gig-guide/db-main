@@ -1,0 +1,17 @@
+name: Build and Publish Docker Image
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  build:
+    uses: bandwidth-gig-guide/ci-workflows/.github/workflows/build-publish.yml@main
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
