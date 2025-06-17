@@ -18,6 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      TAG_PROD: latest
+      TAG_DEV: dev
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -30,24 +34,33 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set image name as repo name
-      run : |
+      run: |
         echo "IMAGE_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
-    - name: Set version tag
+    - name: Set appropriate tag for push event.
       run: |
-        if [[ $GITHUB_REF == "refs/heads/main" ]]; then 
-          echo "TAG=latest" >> $GITHUB_ENV
-        elif [[ $GITHUB_REF == "refs/heads/dev" ]]; then 
-          echo "TAG=dev" >> $GITHUB_ENV
-        else
-          echo "Branch is neither main nor dev. Skipping build and push." 
-          exit 0
+        if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+          if [[ "$GITHUB_REF" == "refs/heads/main" ]]; then
+            echo "TAG=$TAG_PROD" >> $GITHUB_ENV
+          elif [[ "$GITHUB_REF" == "refs/heads/dev" ]]; then
+            echo "TAG=$TAG_DEV" >> $GITHUB_ENV
+          fi
+        fi
+
+    - name: Set appropriate tag for PR event.
+      run: |
+        if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+          if [[ "${{ github.event.pull_request.base.ref }}" == "main" ]]; then
+            echo "TAG=$TAG_PROD" >> $GITHUB_ENV
+          elif [[ "${{ github.event.pull_request.base.ref }}" == "dev" ]]; then
+            echo "TAG=$TAG_DEV" >> $GITHUB_ENV
+          fi
         fi
 
     - name: Build Docker image
       run: |
-        docker build -t ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME:$TAG .
+        docker build -t ghcr.io/${{ github.repository_owner }}/database-event:$TAG .
 
     - name: Push Docker image to GitHub Container Registry
       run: |
-        docker push ghcr.io/${{ github.repository_owner }}/$IMAGE_NAME:$TAG
+        docker push ghcr.io/${{ github.repository_owner }}/database-event:$TAG
