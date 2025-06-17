@@ -12,6 +12,6 @@ on:
 
 jobs:
   build:
-    uses: bandwidth-gig-guide/ci-workflows/.github/workflows/build-publish.yml@main
+    uses: bandwidth-gig-guide/ci-workflows/.github/workflows/build-publish.yaml@main
     secrets:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
