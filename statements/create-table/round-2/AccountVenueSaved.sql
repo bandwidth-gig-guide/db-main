@@ -1,0 +1,7 @@
+CREATE TABLE AccountVenueSaved (
+    AccountID UUID,
+    VenueID UUID,
+    PRIMARY KEY (AccountID, VenueID),
+    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
+);

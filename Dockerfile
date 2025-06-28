@@ -1,7 +1,8 @@
-FROM mariadb:latest
+FROM postgres:latest
 
-ENV MARIADB_ROOT_PASSWORD=${PASSWORD}
-ENV MARIADB_DATABASE=${DB_NAME}
+ENV POSTGRES_USER=root
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DB=db-main
 
-COPY create_tables.sql /docker-entrypoint-initdb.d/
-COPY dummy_data.sql /docker-entrypoint-initdb.d/
+ADD init.sh /docker-entrypoint-initdb.d/
+ADD ./statements /docker-entrypoint-initdb.d/
