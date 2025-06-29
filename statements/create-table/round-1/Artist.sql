@@ -4,7 +4,7 @@ CREATE TABLE Artist (
     Country VARCHAR(100) NOT NULL,
     City VARCHAR(100) NOT NULL,
     StateCode STATECODE NOT NULL,
-    YearFounded CHAR(4) NOT NULL,
+    YearFounded INTEGER NOT NULL,
     Description TEXT NOT NULL,
     SpotifyEmbedURL TEXT,
     YoutubeEmbedURL TEXT

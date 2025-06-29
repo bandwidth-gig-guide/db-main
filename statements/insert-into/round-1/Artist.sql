@@ -5,7 +5,7 @@ VALUES
     'United Kingdom', 
     'London', 
     'NON-AUS', 
-    '2009', 
+    2009, 
     'An indie folk band from London', 
     'https://spotify.com/theamazingdevil', 
     'https://youtube.com/theamazingdevil'
@@ -15,7 +15,7 @@ VALUES
     'USA', 
     'Philadelphia', 
     'NON-AUS', 
-    '1987', 
+    1987, 
     'Hip hop band from Philadelphia', 
     'https://spotify.com/theroots', 
     'https://youtube.com/theroots'
@@ -25,7 +25,7 @@ VALUES
     'United Kingdom', 
     'London', 
     'NON-AUS', 
-    '2013', 
+    2013, 
     'British artist blending soul, 
     jazz, 
     and R&B', 
