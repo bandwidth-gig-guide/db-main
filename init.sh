@@ -18,9 +18,6 @@ execute() {
   fi
 }
 
-psql -U $DB_USER -tc "SELECT 1 FROM pg_database WHERE datname = '$DB_NAME'" | grep -q 1 || \
-psql -U $DB_USER -c "CREATE DATABASE $DB_NAME"
-
 # Create Extensions
 for file in /docker-entrypoint-initdb.d/create-extension/*
 do
