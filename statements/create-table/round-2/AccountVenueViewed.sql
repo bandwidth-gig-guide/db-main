@@ -1,0 +1,8 @@
+CREATE TABLE AccountVenueViewed (
+    AccountID UUID,
+    VenueID UUID,
+    DateTimeViewed TIMESTAMP DEFAULT NOW(),
+    PRIMARY KEY (AccountID, VenueID),
+    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
+);

@@ -1,0 +1,8 @@
+CREATE TABLE VenueImage (
+    VenueID UUID,
+    ImageID UUID,
+    DisplayOrder INTEGER NOT NULL,
+    PRIMARY KEY (VenueID, DisplayOrder),
+    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+);

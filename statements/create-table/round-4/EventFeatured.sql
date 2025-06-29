@@ -1,0 +1,10 @@
+CREATE TABLE EventFeatured (
+    EventID UUID,
+    ImageID UUID,
+    StartDateTime TIMESTAMP NOT NULL,
+    EndDateTime TIMESTAMP NOT NULL,
+    PRIMARY KEY (EventID),
+    FOREIGN KEY (EventID) REFERENCES Event(EventID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+
+);
