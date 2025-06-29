@@ -3,6 +3,7 @@ CREATE TABLE VenueAccountComment (
     VenueID UUID,
     AccountID UUID,
     DateTime TIMESTAMP DEFAULT NOW(),
+    Comment TEXT NOT NULL,
     PRIMARY KEY (CommentID),
     FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE,
     FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE
