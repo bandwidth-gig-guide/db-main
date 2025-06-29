@@ -1,0 +1,7 @@
+CREATE TABLE AccountImage (
+    AccountID UUID,
+    ImageID UUID,
+    PRIMARY KEY (AccountID),
+    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+);

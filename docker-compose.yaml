@@ -1,20 +1,12 @@
 services:
-  db-event:
+  db-main:
     build: .
-    container_name: ${DB_NAME}
-    environment:
-      MYSQL_ROOT_PASSWORD: ${PASSWORD}
-      MYSQL_DATABASE: ${DB_NAME}
+    container_name: db-main
     ports:
-      - "3306:3306"
-    volumes:
-      - volume-db-event:/var/lib/mysql
+      - "5432:5432"
     networks:
       - network-bandwidth
 
-volumes:
-  volume-db-event:
-
 networks:
   network-bandwidth:
-    driver: bridge
+    driver: bridge 

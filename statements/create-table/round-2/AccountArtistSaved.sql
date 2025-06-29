@@ -1,0 +1,7 @@
+CREATE TABLE AccountArtistSaved (
+    AccountID UUID,
+    ArtistID UUID,
+    PRIMARY KEY (AccountID, ArtistID),
+    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (ArtistID) REFERENCES Artist(ArtistID) ON DELETE CASCADE
+);
