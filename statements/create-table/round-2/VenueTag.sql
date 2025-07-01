@@ -1,0 +1,6 @@
+CREATE TABLE VenueTag(
+    VenueID UUID,
+    Tag TAG NOT NULL,
+    PRIMARY KEY (VenueID, Tag),
+    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
+);

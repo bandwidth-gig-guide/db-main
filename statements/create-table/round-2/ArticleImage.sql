@@ -1,0 +1,7 @@
+CREATE TABLE ArticleImage (
+    ArticleID UUID,
+    ImageID UUID,
+    PRIMARY KEY (ArticleID),
+    FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+);
