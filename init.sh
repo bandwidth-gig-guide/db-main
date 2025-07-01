@@ -18,6 +18,8 @@ execute() {
   fi
 }
 
+echo ""
+
 # Create Extensions
 for file in /docker-entrypoint-initdb.d/create-extension/*
 do
@@ -26,6 +28,7 @@ do
   execute "$file"
 done
 
+echo ""
 wait
 
 # Create Types
@@ -36,6 +39,7 @@ do
   execute "$file"
 done
 
+echo ""
 wait
 
 # Create Tables
@@ -50,6 +54,7 @@ do
   done
 done
 
+echo ""
 wait
 
 # Insert Dummy Data
