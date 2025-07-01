@@ -1,4 +1,4 @@
-CREATE TYPE ARTICLETYPE AS ENUM (
+CREATE TYPE TYPEARTICLE AS ENUM (
     'Event Review',
     'Artist Review',
     'Venue Review',

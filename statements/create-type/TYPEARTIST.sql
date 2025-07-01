@@ -1,4 +1,4 @@
-CREATE TYPE ARTISTTYPE AS ENUM (
+CREATE TYPE TYPEARTIST AS ENUM (
     'Musician',
     'Poet',
     'Artist',

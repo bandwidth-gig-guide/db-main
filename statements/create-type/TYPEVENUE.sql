@@ -1,4 +1,4 @@
-CREATE TYPE VENUETYPE AS ENUM (
+CREATE TYPE TYPEVENUE AS ENUM (
     'Live Music',
     'Gallery',
     'Theater',

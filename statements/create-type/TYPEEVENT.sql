@@ -1,4 +1,4 @@
-CREATE TYPE EVENTTYPE AS ENUM (
+CREATE TYPE TYPEEVENT AS ENUM (
     'Live Music',
     'Gig',
     'Festival',
