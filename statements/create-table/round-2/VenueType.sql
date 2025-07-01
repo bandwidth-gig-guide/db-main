@@ -1,0 +1,6 @@
+CREATE TABLE VenueType (
+    VenueID UUID,
+    Type TYPEVENUE NOT NULL,
+    PRIMARY KEY (VenueID, Type),
+    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
+);

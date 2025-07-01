@@ -1,0 +1,6 @@
+CREATE TABLE EventType (
+    EventID UUID,
+    Type TYPEEVENT NOT NULL,
+    PRIMARY KEY (EventID, Type),
+    FOREIGN KEY (EventID) REFERENCES Event(EventID) ON DELETE CASCADE
+);
