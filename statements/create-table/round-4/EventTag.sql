@@ -1,0 +1,6 @@
+CREATE TABLE EventTag(
+    EventID UUID,
+    Tag TAG NOT NULL,
+    PRIMARY KEY (EventID, Tag),
+    FOREIGN KEY (EventID) REFERENCES Event(EventID) ON DELETE CASCADE
+);

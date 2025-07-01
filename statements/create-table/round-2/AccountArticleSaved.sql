@@ -1,0 +1,7 @@
+CREATE TABLE AccountArticleSaved (
+    AccountID UUID,
+    ArticleID UUID,
+    PRIMARY KEY (AccountID, ArticleID),
+    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+    FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE
+);

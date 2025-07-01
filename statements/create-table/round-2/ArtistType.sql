@@ -1,0 +1,6 @@
+CREATE TABLE ArtistType (
+    ArtistID UUID,
+    Type TYPEARTIST NOT NULL,
+    PRIMARY KEY (ArtistID, Type),
+    FOREIGN KEY (ArtistID) REFERENCES Artist(ArtistID) ON DELETE CASCADE
+);

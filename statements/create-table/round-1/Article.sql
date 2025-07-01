@@ -1,0 +1,7 @@
+CREATE TABLE Article (
+    ArticleID UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    Title VARCHAR(100) NOT NULL,
+    DateTimePublished TIMESTAMP NOT NULL DEFAULT NOW(),
+    DateTimeLastEdited TIMESTAMP NOT NULL DEFAULT NOW(),
+    FileName VARCHAR(255) NOT NULL
+);
