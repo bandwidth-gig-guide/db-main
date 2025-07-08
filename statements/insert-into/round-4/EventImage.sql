@@ -1,7 +1,3 @@
 INSERT INTO EventImage (EventID, ImageID, DisplayOrder)
 VALUES
-(
-    (SELECT EventID FROM Event WHERE Title = 'The First Event'),
-    (SELECT ImageID FROM Image WHERE URL = 'https://i.etsystatic.com/51700482/r/il/90cddf/5967617983/il_fullxfull.5967617983_gdx0.jpg'),
-    1
-);
+    ('f81d4fae-7dec-11d0-a765-00a0c91e6bf6', c0b1a2d3-e4f5-6789-abcd-ef0123456789, 1); -- Sunset Groove Festival
