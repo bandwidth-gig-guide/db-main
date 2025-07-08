@@ -1,6 +1,7 @@
-INSERT INTO Venue (Title, StreetAddress, City, StateCode, PostCode, Description, WebsiteURL, PhoneNumber)
+INSERT INTO Venue (VenueID, Title, StreetAddress, City, StateCode, PostCode, Description, WebsiteURL, PhoneNumber)
 VALUES 
 (
+    'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a',
     'The Gasometer Hotel',
     '484 Smith St',
     'Collingwood',
