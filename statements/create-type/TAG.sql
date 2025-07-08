@@ -26,5 +26,5 @@ CREATE TYPE TAG AS ENUM (
     'Reggae',
     'Rock',
     'Shoegaze',
-    'Soul',
+    'Soul'
 );
