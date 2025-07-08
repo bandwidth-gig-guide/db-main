@@ -1,8 +1,10 @@
 CREATE TYPE TYPEARTIST AS ENUM (
-    'Musician',
-    'Poet',
-    'Artist',
-    'Painter',
-    'Photographer',
-    'Dancer'
+    'Band',
+    'Choir',
+    'DJ',
+    'Instrumentalist',
+    'Orchestra',
+    'Singer-Songwriter',
+    'Solo Artist',
+    'Vocalist'
 );
