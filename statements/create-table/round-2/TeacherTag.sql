@@ -1,0 +1,6 @@
+CREATE TABLE TeacherTag(
+    TeacherID UUID,
+    Tag TAG NOT NULL,
+    PRIMARY KEY (TeacherID, Tag),
+    FOREIGN KEY (TeacherID) REFERENCES Teacher(TeacherID) ON DELETE CASCADE
+);

@@ -1,0 +1,13 @@
+CREATE TYPE INSTRUMENT AS ENUM (
+    'Vocals',
+    'Guitar',
+    'Bass',
+    'Drums',
+    'Keyboard',
+    'Saxophone',
+    'Trumpet',
+    'Violin',
+    'Cello',
+    'Flute',
+    'Clarinet'
+);

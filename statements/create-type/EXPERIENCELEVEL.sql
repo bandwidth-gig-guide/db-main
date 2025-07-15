@@ -1,0 +1,9 @@
+CREATE TYPE EXPERIENCELEVEL AS ENUM (
+    'Beginner',
+    'Emerging',
+    'Early Intermediate',
+    'Intermediate',
+    'Advanced',
+    'Expert',
+    'Virtuoso'
+);
