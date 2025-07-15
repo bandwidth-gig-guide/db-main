@@ -1,0 +1,7 @@
+CREATE TABLE TeacherImage (
+    TeacherID UUID,
+    ImageID UUID,
+    PRIMARY KEY (TeacherID),
+    FOREIGN KEY (TeacherID) REFERENCES Teacher(TeacherID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+);
