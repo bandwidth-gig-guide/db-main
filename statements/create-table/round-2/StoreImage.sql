@@ -1,0 +1,8 @@
+CREATE TABLE StoreImage (
+    StoreID UUID,
+    ImageID UUID,
+    DisplayOrder INTEGER NOT NULL,
+    PRIMARY KEY (StoreID, DisplayOrder),
+    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE,
+    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
+);
