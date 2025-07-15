@@ -1,5 +1,5 @@
 CREATE TABLE Teacher (
-    VenueID UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    TeacherID UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     Label VARCHAR(100) NOT NULL,
