@@ -71,14 +71,18 @@ wait
 # Insert Dummy Data
 echo "--- INSERTING DUMMY DATA"
 
-for folder in /docker-entrypoint-initdb.d/insert-into/*
+for outer_folder in /docker-entrypoint-initdb.d/insert-into/*
 do
-  [ -d "$folder" ] || continue
-  for file in "$folder"/*.sql
+  [ -d "$outer_folder" ] || continue
+  for inner_folder in "$outer_folder"/*
   do
-    [ -e "$file" ] || continue
-    log "04" "$file"
-    execute "$file"
-  done
+    [ -d "$inner_folder" ] || continue
+    for file in "$inner_folder"/*.sql
+    do
+      [ -e "$file" ] || continue
+      log "04" "$file"
+      execute "$file"
+    done
   echo ""
+  done
 done
