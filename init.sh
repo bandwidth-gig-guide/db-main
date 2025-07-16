@@ -21,6 +21,8 @@ execute() {
 echo ""
 
 # Create Extensions
+echo "--- CREATING EXTENSIONS"
+
 for file in /docker-entrypoint-initdb.d/create-extension/*
 do
   [ -e "$file" ] || continue
@@ -32,6 +34,8 @@ echo ""
 wait
 
 # Create Types
+echo "--- CREATING TYPES"
+
 for file in /docker-entrypoint-initdb.d/create-type/*
 do
   [ -e "$file" ] || continue
@@ -43,14 +47,21 @@ echo ""
 wait
 
 # Create Tables
-for folder in /docker-entrypoint-initdb.d/create-table/*
+echo "--- CREATING TABLES"
+
+for outer_folder in /docker-entrypoint-initdb.d/create-table/*
 do
-  [ -d "$folder" ] || continue
-  for file in "$folder"/*.sql
+  [ -d "$outer_folder" ] || continue
+  for inner_folder in "$outer_folder"/*
   do
-    [ -e "$file" ] || continue
-    log "03" "$file"
-    execute "$file"
+    [ -d "$inner_folder" ] || continue
+    for file in "$inner_folder"/*.sql
+    do
+      [ -e "$file" ] || continue
+      log "03" "$file"
+      execute "$file"
+    done
+  echo ""
   done
 done
 
@@ -58,6 +69,8 @@ echo ""
 wait
 
 # Insert Dummy Data
+echo "--- INSERTING DUMMY DATA"
+
 for folder in /docker-entrypoint-initdb.d/insert-into/*
 do
   [ -d "$folder" ] || continue
@@ -67,4 +80,5 @@ do
     log "04" "$file"
     execute "$file"
   done
+  echo ""
 done
