@@ -1,0 +1,13 @@
+CREATE TABLE StoreLocation (
+    StoreLocationID UUID,
+    StoreID UUID,
+    StreetAddress VARCHAR(100) NOT NULL,
+    City VARCHAR(100) NOT NULL,
+    StateCode STATECODE NOT NULL,
+    PostCode INTEGER NOT NULL,
+    GoogleMapsEmbed TEXT NOT NULL,
+    WebsiteURL TEXT NOT NULL,
+    PhoneNumber VARCHAR(20) NOT NULL,
+    PRIMARY KEY (StoreLocationID),
+    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
+);

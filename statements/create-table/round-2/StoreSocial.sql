@@ -1,0 +1,8 @@
+CREATE TABLE StoreSocial (
+    StoreID UUID,
+    SocialPlatform SOCIALPLATFORM,
+    Handle VARCHAR(100) NOT NULL,
+    URL TEXT NOT NULL,
+    PRIMARY KEY (StoreID, SocialPlatform),
+    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
+);
