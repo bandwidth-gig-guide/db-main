@@ -11,5 +11,3 @@ VALUES
     'https://www.thegasometerhotel.com.au/shows',
     '(03) 4240 4276'
 );
-
-
