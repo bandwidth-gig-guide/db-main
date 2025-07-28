@@ -2,6 +2,8 @@ INSERT INTO Image (ImageID, URL)
 VALUES 
     ('e3a9f7c1-48d2-4fbb-a7b9-54d2c9e3f12a', 'https://www.basicstuffmagazine.com/wp-content/uploads/2020/04/N1Ynur1-.jpg'), -- The Amazing Devil
     ('b8d9e6f2-7a3c-4f0a-9d18-6e5a7b4c3d2e', 'https://www.philadelphiamusicalliance.org/wp-content/uploads/the-roots-02.jpg'), -- The Roots
+    ('b8d9e6f2-7a3c-4f0a-9d18-6e5a7b4c3d21', 'https://thefader-res.cloudinary.com/images/w_1440,c_limit,f_auto,q_auto:eco/en7ia0j15z4uzb0pp9yg/the-roots-death-of-existentialism.jpg'), -- The Roots
+    ('b8d9e6f2-7a3c-4f0a-9d18-6e5a7b4c3d22', 'https://mg.live/files/images/pages/1527/The%20Roots_2025_Tour_Image_Mobile_800x553.webp?f=png.jpg'), -- The Roots
     ('d7c1f3a4-982b-4ad7-801e-9c4e5f7b2a1d', 'https://www.mysticsons.com/sites/default/files/styles/large/public/19613/feature/unnamed-700.jpg?itok=kd5BJGra'), -- Tom Misch
     ('f65d4a8b-c27e-4d2f-b7f2-e1386d5a4e99', 'https://i1.sndcdn.com/avatars-ySVPHIyw8Qbp86uk-YXdGgg-t1080x1080.jpg'), -- Rhsyics
     ('8a7b5c3e-291f-4a57-8ea1-fd2b3e9c7a0d', 'https://www.rollingstone.com/wp-content/uploads/2019/04/tame-impala-tour.jpg?w=1581&h=1054&crop=1'), -- Tame Impala
