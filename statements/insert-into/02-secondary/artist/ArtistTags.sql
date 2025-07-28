@@ -7,7 +7,7 @@ VALUES
   ('b7e8e7e2-7c6a-4e2e-9c2a-1a2b3c4d5e6f', 'Experimental'),
 
   -- The Roots: HipHop, Funk, Soul, Jazz
-  ('c1f2e3d4-5b6a-7c8d-9e0f-1a2b3c4d5e6f', 'HipHop'),
+  ('c1f2e3d4-5b6a-7c8d-9e0f-1a2b3c4d5e6f', 'Hip Hop'),
   ('c1f2e3d4-5b6a-7c8d-9e0f-1a2b3c4d5e6f', 'Funk'),
   ('c1f2e3d4-5b6a-7c8d-9e0f-1a2b3c4d5e6f', 'Soul'),
   ('c1f2e3d4-5b6a-7c8d-9e0f-1a2b3c4d5e6f', 'Jazz'),
