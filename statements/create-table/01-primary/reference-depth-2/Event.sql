@@ -5,7 +5,6 @@ CREATE TABLE Event (
     Title TEXT NOT NULL,
     Description TEXT NOT NULL,
     StartDateTime TIMESTAMP NOT NULL,
-    EndDateTime TIMESTAMP NOT NULL,
     OriginalPostURL TEXT NOT NULL,
     TicketSaleURL TEXT
 );
