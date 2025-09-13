@@ -1,132 +1,88 @@
 INSERT INTO EventPrice (EventID, TicketType, Price)
 VALUES
--- Event 1
-('f8a3c2d4-9e7b-4a9c-b123-7c56d9f234a1', 'General Admission', 35.00),
-('f8a3c2d4-9e7b-4a9c-b123-7c56d9f234a1', 'Student', 25.00),
-('f8a3c2d4-9e7b-4a9c-b123-7c56d9f234a1', 'Online', 20.00),
+-- Saturday Nov 1
+('81aef145-e8a3-41b0-a546-d5030addb359', 'General Admission', 35.00),
+('81aef145-e8a3-41b0-a546-d5030addb359', 'Student', 25.00),
+('81aef145-e8a3-41b0-a546-d5030addb359', 'Online', 20.00),
 
--- Event 2 (free)
-('2a4b6c8d-123e-4f56-b78c-9d01f2345a6b', 'General Admission', 0.00),
+('05fb338e-d64d-40f9-91e6-0e93d140b346', 'General Admission', 0.00),
 
--- Event 3
-('5d6f7a8b-90c1-4d23-b456-7e89f01234ab', 'General Admission', 30.00),
-('5d6f7a8b-90c1-4d23-b456-7e89f01234ab', 'Student', 20.00),
+('c5a40d25-66a5-49da-b277-60b5e61e58a1', 'General Admission', 30.00),
+('c5a40d25-66a5-49da-b277-60b5e61e58a1', 'Student', 20.00),
 
--- Event 4 (free)
-('7c8d9e0f-1a2b-4c5d-b6e7-8901f234567a', 'General Admission', 0.00),
+('7b925725-1afc-426f-a1bd-351212ef1cfd', 'General Admission', 0.00),
 
--- Event 5
-('8e9f0a1b-2c3d-4e5f-b607-18293a4b5c6d', 'General Admission', 40.00),
-('8e9f0a1b-2c3d-4e5f-b607-18293a4b5c6d', 'Online', 25.00),
+('514b7325-02ef-47ed-977d-56ee75cb4b3f', 'General Admission', 40.00),
+('514b7325-02ef-47ed-977d-56ee75cb4b3f', 'Online', 25.00),
 
--- Event 6
-('9f0a1b2c-3d4e-5f60-b718-293a4b5c6d7e', 'General Admission', 28.00),
-('9f0a1b2c-3d4e-5f60-b718-293a4b5c6d7e', 'Student', 18.00),
+('4e1c026f-995a-45df-8666-b73dbe930125', 'General Admission', 28.00),
+('4e1c026f-995a-45df-8666-b73dbe930125', 'Student', 18.00),
 
--- Event 7 (free)
-('0a1b2c3d-4e5f-6071-b829-3a4b5c6d7e8f', 'General Admission', 0.00),
+('7843e462-adf6-49e9-955c-8dacbd88e78f', 'General Admission', 0.00),
 
--- Event 8
-('1b2c3d4e-5f60-7182-b93a-4b5c6d7e8f90', 'General Admission', 32.00),
-('1b2c3d4e-5f60-7182-b93a-4b5c6d7e8f90', 'Student', 22.00),
-('1b2c3d4e-5f60-7182-b93a-4b5c6d7e8f90', 'Online', 18.00),
+('efed6b8c-b0d3-4835-9463-bcf28130b08d', 'General Admission', 32.00),
+('efed6b8c-b0d3-4835-9463-bcf28130b08d', 'Student', 22.00),
+('efed6b8c-b0d3-4835-9463-bcf28130b08d', 'Online', 18.00),
 
--- Event 9
-('2c3d4e5f-6071-8293-b04a-5c6d7e8f9011', 'General Admission', 25.00),
+-- Sunday Nov 2
+('b12b89f4-b2f9-486c-b3c6-0a4681326478', 'General Admission', 25.00),
 
--- Event 10
-('3d4e5f60-7182-93b0-4a5c-6d7e8f901122', 'General Admission', 30.00),
-('3d4e5f60-7182-93b0-4a5c-6d7e8f901122', 'Student', 20.00),
+('edb12338-c2b1-4cbc-919b-97381f0eaeed', 'General Admission', 30.00),
+('edb12338-c2b1-4cbc-919b-97381f0eaeed', 'Student', 20.00),
 
--- Event 11 (free)
-('4e5f6071-8293-0b4a-5c6d-7e8f90112233', 'General Admission', 0.00),
+('19ea3bd4-9c1d-4177-88a2-5691e8e90fd4', 'General Admission', 0.00),
 
--- Event 12
-('5f607182-93b0-4a5c-6d7e-8f9011223344', 'General Admission', 38.00),
-('5f607182-93b0-4a5c-6d7e-8f9011223344', 'Online', 28.00),
+('611650dc-e795-4fdc-bf96-7a485aa5a074', 'General Admission', 38.00),
+('611650dc-e795-4fdc-bf96-7a485aa5a074', 'Online', 28.00),
 
--- Event 13
-('60718293-b04a-5c6d-7e8f-901122334455', 'General Admission', 29.00),
-('60718293-b04a-5c6d-7e8f-901122334455', 'Student', 19.00),
+('20209f48-9e27-4a65-831d-ae31898890d0', 'General Admission', 29.00),
 
--- Event 14
-('7182930b-4a5c-6d7e-8f90-112233445566', 'General Admission', 33.00),
+-- Monday Nov 3
+('f65b607a-9016-4513-8698-b5b7402271c7', 'General Admission', 33.00),
 
--- Event 15 (free)
-('82930b4a-5c6d-7e8f-9011-223344556677', 'General Admission', 0.00),
+('ac018aee-c04f-42b6-9c1d-a7e60c32e912', 'General Admission', 0.00),
 
--- Event 16
-('930b4a5c-6d7e-8f90-1122-334455667788', 'General Admission', 36.00),
-('930b4a5c-6d7e-8f90-1122-334455667788', 'Student', 26.00),
+('4f790c13-98f6-4e08-98f5-eb2f3a51a166', 'General Admission', 36.00),
+('4f790c13-98f6-4e08-98f5-eb2f3a51a166', 'Student', 26.00),
 
--- Event 17
-('0b4a5c6d-7e8f-9011-2233-445566778899', 'General Admission', 30.00),
-('0b4a5c6d-7e8f-9011-2233-445566778899', 'Online', 20.00),
+-- Tuesday Nov 4
+('fb7916b0-7a81-4018-a594-21e064abc360', 'General Admission', 30.00),
 
--- Event 18
-('1c5d6e7f-8a90-1122-3344-556677889900', 'General Admission', 32.00),
-('1c5d6e7f-8a90-1122-3344-556677889900', 'Student', 22.00),
+('75b73af1-65ec-48db-9a37-b560f5960129', 'General Admission', 33.00),
 
--- Event 19 (free)
-('2d6e7f8a-9011-2233-4455-667788990011', 'General Admission', 0.00),
+('dd0ee87a-f004-47d6-8823-3a60e621fee7', 'General Admission', 0.00),
 
--- Event 20
-('3e7f8a90-1122-3344-5566-778899001122', 'General Admission', 28.00),
-('3e7f8a90-1122-3344-5566-778899001122', 'Online', 18.00),
+('50711ff2-4a46-44c9-92d7-7355b861dd9d', 'General Admission', 28.00),
+('50711ff2-4a46-44c9-92d7-7355b861dd9d', 'Online', 18.00),
 
--- Event 21
-('4f8a9011-2233-4455-6677-889900112233', 'General Admission', 35.00),
-('4f8a9011-2233-4455-6677-889900112233', 'Student', 25.00),
+-- Wednesday Nov 5
+('1f07b607a-9016-4513-8698-b5b7402271c7', 'General Admission', 35.00),
 
--- Event 22
-('5a901122-3344-5566-7788-990011223344', 'General Admission', 40.00),
+('17a136dd-44f5-43eb-9e3f-62bff9f78cc0', 'General Admission', 0.00),
 
--- Event 23 (free)
-('6b011223-3445-5667-7889-001122334455', 'General Admission', 0.00),
+('ba3c4e4d-31de-4b73-90b5-ddc762ef0025', 'General Admission', 40.00),
+('ba3c4e4d-31de-4b73-90b5-ddc762ef0025', 'Student', 30.00),
 
--- Event 24
-('7c112234-4556-6778-8890-011223344566', 'General Admission', 33.00),
-('7c112234-4556-6778-8890-011223344566', 'Student', 23.00),
+-- Thursday Nov 6
+('2d98b7bd-56ee-4c98-a6da-a773e72d54fb', 'General Admission', 28.00),
 
--- Event 25
-('8d223345-5667-7889-9001-122334455677', 'General Admission', 30.00),
-('8d223345-5667-7889-9001-122334455677', 'Online', 20.00),
+('a20e04a2-f15e-466c-90d4-db6673a2563f', 'General Admission', 0.00),
 
--- Event 26
-('9e334456-6778-8990-0112-233445566788', 'General Admission', 28.00),
+('fdb80c56-af57-4ed4-b315-298e46b2af65', 'General Admission', 36.00),
+('fdb80c56-af57-4ed4-b315-298e46b2af65', 'Student', 26.00),
 
--- Event 27 (free)
-('af445567-7889-9001-1223-344556677899', 'General Admission', 0.00),
+('f25a8113-5152-45cf-a13e-0ccf52f3c25c', 'General Admission', 30.00),
+('f25a8113-5152-45cf-a13e-0ccf52f3c25c', 'Online', 20.00),
 
--- Event 28
-('bf556678-8890-0112-2334-455667788900', 'General Admission', 35.00),
-('bf556678-8890-0112-2334-455667788900', 'Student', 25.00),
+-- Friday Nov 7
+('dcf56532-f899-4e77-8c1f-662b111d02c9', 'General Admission', 32.00),
 
--- Event 29
-('c0667789-9001-1223-3445-566778890011', 'General Admission', 32.00),
-('c0667789-9001-1223-3445-566778890011', 'Online', 22.00),
+('86b2285f-9003-45a3-8c0f-1aa385325f28', 'General Admission', 22.00),
 
--- Event 30
-('d1778890-0112-2334-4556-677889001122', 'General Admission', 40.00),
-('d1778890-0112-2334-4556-677889001122', 'Student', 30.00),
+('cc2554e9-99a6-4d7f-b439-2685a2d1577d', 'General Admission', 0.00),
 
--- Event 31
-('e2889901-1223-3445-5667-788900112233', 'General Admission', 28.00),
+('b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32', 'General Admission', 40.00),
 
--- Event 32 (free)
-('f3990011-2233-4455-6677-889001122344', 'General Admission', 0.00),
+('2a6d9f7b-8b44-40f6-b7f8-4f8a8ecb6d14', 'General Admission', 35.00),
 
--- Event 33
-('0a4a1122-3344-5566-7788-900112233455', 'General Admission', 36.00),
-('0a4a1122-3344-5566-7788-900112233455', 'Student', 26.00),
-
--- Event 34
-('1b5b2233-4455-6677-8890-011223344566', 'General Admission', 30.00),
-('1b5b2233-4455-6677-8890-011223344566', 'Online', 20.00),
-
--- Event 35
-('2c6c3344-5566-7788-9001-122334455677', 'General Admission', 33.00),
-
--- Event 36
-('3d7d4455-6677-8890-0112-233445566788', 'General Admission', 40.00),
-('3d7d4455-6677-8890-0112-233445566788', 'Student', 30.00);
+('9a1f0c8e-6f6e-4a52-8d80-95b1f2b441d9', 'General Admission', 28.00);
