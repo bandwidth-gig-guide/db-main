@@ -1,42 +1,49 @@
-INSERT INTO Event (EventID, VenueID, StageID, Title, Description, StartDateTime, OriginalPostURL, TicketSaleURL)
-VALUES
-(
-    'f81d4fae-7dec-11d0-a765-00a0c91e6bf6',
-    'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a',
-    'b7f9c8e2-4a1d-4c2e-9a3b-2f7e6d5c1a9f',
-    'Sunset Groove Festival',
-    'Experience an unforgettable evening of eclectic sounds and vibrant energy at the Sunset Groove Festival. This annual celebration brings together some of the most innovative indie and alternative acts, delivering a diverse lineup that spans genres and styles. From haunting folk melodies to upbeat rock anthems, there''s something to captivate every music lover.\n\nHeld on the iconic Main Stage at The Gasometer Hotel, the festival offers an immersive environment where the crowd and artists become one. Beyond the music, attendees can explore local art stalls, craft food vendors, and engaging workshops that enhance the communal vibe. As the sun sets, the atmosphere transforms, bathing the stage in warm colors and setting the perfect mood for an evening of connection and celebration.\n\nWhether you''re a longtime fan or new to the scene, Sunset Groove Festival promises a night of discovery, joy, and memories that will linger long after the last chord.',
-    '2025-10-20 17:00:00',
-    'https://www.fakesite.com/sunset-groove-festival',
-    'https://www.fakesite.com/sunset-groove-tickets'
-),
-(
-    '8d12c6f0-964d-4f71-9f62-f4e9a64a7e2d',
-    'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a',
-    'a2d4e1b7-3c9f-4e2a-8b1d-7f6c5a4e3b2c',
-    'Acoustic Evenings',
-    'Relax and unwind in the intimate setting of the Upstairs stage with Acoustic Evenings, a series designed to showcase the beauty of stripped-back performances. Featuring singer-songwriters, instrumentalists, and small ensembles, this event highlights the power of raw talent and heartfelt expression.\n\nEach evening offers a unique lineup, bringing together a range of genres including folk, jazz, blues, and classical influences. Attendees will enjoy nuanced melodies, poetic lyrics, and the gentle interplay of acoustic instruments that create a warm and inviting atmosphere. The cozy venue encourages close connection between artists and audience, making each show a personal experience.\n\nJoin us for a night where music takes center stage without distractions, and the stories behind the songs come to life through compelling performances that soothe the soul and spark inspiration.',
-    '2025-10-21 18:30:00',
-    'https://www.fakesite.com/acoustic-evenings',
-    'https://www.fakesite.com/acoustic-evenings-tickets'
-),
-(
-    'a4e5f6d7-c89b-4a0e-9f2e-6e8a1b7c3d4f',
-    'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a',
-    'b7f9c8e2-4a1d-4c2e-9a3b-2f7e6d5c1a9f',
-    'Electric Pulse Night',
-    'Dive into a high-energy celebration of electronic, funk, and experimental music at Electric Pulse Night. The Main Stage at The Gasometer Hotel transforms into a pulsating hub of sound and light, showcasing cutting-edge artists who push musical boundaries and ignite dance floors.\n\nThe night features dynamic performances from a lineup of renowned DJs and live acts who blend synthesized beats, live instruments, and innovative production techniques. Spectacular visuals and immersive lighting effects complement the music, creating a multi-sensory experience that captivates the audience from start to finish.\n\nWhether you''re a seasoned raver or curious newcomer, Electric Pulse Night promises an exhilarating atmosphere full of surprises, community, and rhythm that will keep you moving until the early hours of the morning.',
-    '2025-10-22 20:00:00',
-    'https://www.fakesite.com/electric-pulse-night',
-    'https://www.fakesite.com/electric-pulse-tickets'
-),
-(
-    'd2c3b4a5-e6f7-4829-9abc-0def12345678',
-    'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a',
-    'a2d4e1b7-3c9f-4e2a-8b1d-7f6c5a4e3b2c',
-    'Soulful Sunday Sessions',
-    'End your weekend with a soulful escape at the Soulful Sunday Sessions, hosted on the intimate Upstairs stage. This event series brings together artists specializing in soul, blues, and R&B to deliver heartfelt and moving performances.\n\nThe sessions offer an inviting ambiance where the music''s emotional depth and expressive vocals create a profound connection with the audience. With a focus on storytelling through song, each artist brings their unique perspective and style, evoking nostalgia, hope, and joy.\n\nPerfect for winding down the weekend, these sessions encourage reflection, relaxation, and appreciation for some of the most timeless genres in music. Come alone or with friends to experience the warmth and power of soul in a setting that feels like home.',
-    '2025-10-23 16:00:00',
-    'https://www.fakesite.com/soulful-sunday-sessions',
-    'https://www.fakesite.com/soulful-sunday-tickets'
-);
+INSERT INTO Event (EventID, VenueID, StageID, Title, Description, StartDateTime, OriginalPostURL, TicketSaleURL) VALUES
+
+-- Saturday Nov 1
+('81aef145-e8a3-41b0-a546-d5030addb359', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'The Amazing Devil — Live at The Evelyn Hotel', 'The Amazing Devil performing live at The Evelyn Hotel. Tickets and info.', '2025-11-01 13:00:00', 'https://www.example.com/events/81aef145-e8a3-41b0-a546-d5030addb359', 'https://tickets.example.com/81aef145-e8a3-41b0-a546-d5030addb359'),
+('05fb338e-d64d-40f9-91e6-0e93d140b346', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'f6a7b8c9-0123-4d45-4e67-890abcdef123', 'The Roots — Live at The Evelyn Hotel', 'The Roots performing live at The Evelyn Hotel. Tickets and info.', '2025-11-01 15:00:00', 'https://www.example.com/events/05fb338e-d64d-40f9-91e6-0e93d140b346', 'https://tickets.example.com/05fb338e-d64d-40f9-91e6-0e93d140b346'),
+('c5a40d25-66a5-49da-b277-60b5e61e58a1', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'c1d2e3f4-5678-4abc-9def-0123456789ab', 'Tom Misch — Live at Corner Hotel', 'Tom Misch performing live at Corner Hotel. Tickets and info.', '2025-11-01 17:00:00', 'https://www.example.com/events/c5a40d25-66a5-49da-b277-60b5e61e58a1', 'https://tickets.example.com/c5a40d25-66a5-49da-b277-60b5e61e58a1'),
+('7b925725-1afc-426f-a1bd-351212ef1cfd', 'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a', 'b7f9c8e2-4a1d-4c2e-9a3b-2f7e6d5c1a9f', 'Rhsyics — Live at The Gasometer Hotel', 'Rhsyics performing live at The Gasometer Hotel. Tickets and info.', '2025-11-01 18:30:00', 'https://www.example.com/events/7b925725-1afc-426f-a1bd-351212ef1cfd', 'https://tickets.example.com/7b925725-1afc-426f-a1bd-351212ef1cfd'),
+('514b7325-02ef-47ed-977d-56ee75cb4b3f', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'c3d4e5f6-7890-4a12-1b34-567890abcdef', 'Tame Impala — Live at Howler', 'Tame Impala performing live at Howler. Tickets and info.', '2025-11-01 19:00:00', 'https://www.example.com/events/514b7325-02ef-47ed-977d-56ee75cb4b3f', 'https://tickets.example.com/514b7325-02ef-47ed-977d-56ee75cb4b3f'),
+('4e1c026f-995a-45df-8666-b73dbe930125', '1a3c5e7f-9b2d-4c1e-bf4e-82f54c6a47e3', 'a1b2c3d4-5678-4ef0-9a12-34567890abcd', 'Gang of Youths — Live at The Tote', 'Gang of Youths performing live at The Tote. Tickets and info.', '2025-11-01 20:00:00', 'https://www.example.com/events/4e1c026f-995a-45df-8666-b73dbe930125', 'https://tickets.example.com/4e1c026f-995a-45df-8666-b73dbe930125'),
+('7843e462-adf6-49e9-955c-8dacbd88e78f', 'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a', 'a2d4e1b7-3c9f-4e2a-8b1d-7f6c5a4e3b2c', 'The Teskey Brothers — Upstairs at The Gasometer Hotel', 'The Teskey Brothers performing upstairs at The Gasometer Hotel. Tickets and info.', '2025-11-01 21:30:00', 'https://www.example.com/events/7843e462-adf6-49e9-955c-8dacbd88e78f', 'https://tickets.example.com/7843e462-adf6-49e9-955c-8dacbd88e78f'),
+('efed6b8c-b0d3-4835-9463-bcf28130b08d', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'd4e5f6a7-8901-4b23-2c45-67890abcdef1', 'Ball Park Music — Live at Howler (Gallery Stage)', 'Ball Park Music performing at Howler (Gallery Stage). Tickets and info.', '2025-11-01 23:00:00', 'https://www.example.com/events/efed6b8c-b0d3-4835-9463-bcf28130b08d', 'https://tickets.example.com/efed6b8c-b0d3-4835-9463-bcf28130b08d'),
+
+-- Sunday Nov 2
+('b12b89f4-b2f9-486c-b3c6-0a4681326478', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'c3d4e5f6-7890-4a12-1b34-567890abcdef', 'Courtney Barnett — Brunch Set at Howler', 'Courtney Barnett performing live at Howler. Tickets and info.', '2025-11-02 14:00:00', 'https://www.example.com/events/b12b89f4-b2f9-486c-b3c6-0a4681326478', 'https://tickets.example.com/b12b89f4-b2f9-486c-b3c6-0a4681326478'),
+('edb12338-c2b1-4cbc-919b-97381f0eaeed', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'Vance Joy — Sunday Session at The Evelyn Hotel', 'Vance Joy performing live at The Evelyn Hotel. Tickets and info.', '2025-11-02 16:00:00', 'https://www.example.com/events/edb12338-c2b1-4cbc-919b-97381f0eaeed', NULL),
+('19ea3bd4-9c1d-4177-88a2-5691e8e90fd4', '1a3c5e7f-9b2d-4c1e-bf4e-82f54c6a47e3', 'b2c3d4e5-6789-4f01-0a23-4567890abcde', 'Flume — Sunday Sundown at The Tote', 'Flume performing live at The Tote. Tickets and info.', '2025-11-02 17:30:00', 'https://www.example.com/events/19ea3bd4-9c1d-4177-88a2-5691e8e90fd4', 'https://tickets.example.com/19ea3bd4-9c1d-4177-88a2-5691e8e90fd4'),
+('611650dc-e795-4fdc-bf96-7a485aa5a074', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'd4e5f6a7-8901-4b23-2c45-67890abcdef1', 'Sampa The Great — Afternoon Groove', 'Sampa The Great performing live at Howler (Gallery Stage). Tickets and info.', '2025-11-02 19:00:00', 'https://www.example.com/events/611650dc-e795-4fdc-bf96-7a485aa5a074', 'https://tickets.example.com/611650dc-e795-4fdc-bf96-7a485aa5a074'),
+('20209f48-9e27-4a65-831d-ae31898890d0', 'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a', 'b7f9c8e2-4a1d-4c2e-9a3b-2f7e6d5c1a9f', 'King Gizzard & The Lizard Wizard — Early Evening at The Gasometer Hotel', 'King Gizzard performing live at The Gasometer Hotel. Tickets and info.', '2025-11-02 20:30:00', 'https://www.example.com/events/20209f48-9e27-4a65-831d-ae31898890d0', NULL),
+
+-- Monday Nov 3
+('f65b607a-9016-4513-8698-b5b7402271c7', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'd4e5f6a7-1234-4bcd-8ef0-9876543210ab', 'Courtney Barnett — Weeknight Special at Corner Hotel', 'Courtney Barnett performing at Corner Hotel. Tickets and info.', '2025-11-03 19:00:00', 'https://www.example.com/events/f65b607a-9016-4513-8698-b5b7402271c7', 'https://tickets.example.com/f65b607a-9016-4513-8698-b5b7402271c7'),
+('ac018aee-c04f-42b6-9c1d-a7e60c32e912', '7f8eec22-84af-49ef-987d-b8f7c79a16c4', 'e1f2a3b4-5678-4cde-9f01-234567890abc', 'Gretta Ray — Monday Night at Northcote Social Club', 'Gretta Ray performing at Northcote Social Club. Tickets and info.', '2025-11-03 20:00:00', 'https://www.example.com/events/ac018aee-c04f-42b6-9c1d-a7e60c32e912', 'https://tickets.example.com/ac018aee-c04f-42b6-9c1d-a7e60c32e912'),
+('4f790c13-98f6-4e08-98f5-eb2f3a51a166', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'f6a7b8c9-0123-4d45-4e67-890abcdef123', 'Baker Boy — Monday Mic at The Evelyn Hotel', 'Baker Boy performing at The Evelyn Hotel. Tickets and info.', '2025-11-03 21:00:00', 'https://www.example.com/events/4f790c13-98f6-4e08-98f5-eb2f3a51a166', NULL),
+
+-- Tuesday Nov 4
+('fb7916b0-7a81-4018-a594-21e064abc360', '7f8eec22-84af-49ef-987d-b8f7c79a16c4', 'f3a4b5c6-6789-4def-0a12-34567890abcd', 'Middle Kids — Tuesday at Northcote Social Club', 'Middle Kids performing at Northcote Social Club. Tickets and info.', '2025-11-04 18:30:00', 'https://www.example.com/events/fb7916b0-7a81-4018-a594-21e064abc360', NULL),
+('75b73af1-65ec-48db-9a37-b560f5960129', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'c3d4e5f6-7890-4a12-1b34-567890abcdef', 'DZ Deathrays — Tuesday Rager at Howler', 'DZ Deathrays performing at Howler. Tickets and info.', '2025-11-04 19:30:00', 'https://www.example.com/events/75b73af1-65ec-48db-9a37-b560f5960129', NULL),
+('dd0ee87a-f004-47d6-8823-3a60e621fee7', '7f8eec22-84af-49ef-987d-b8f7c79a16c4', 'e1f2a3b4-5678-4cde-9f01-234567890abc', 'The Jungle Giants — Tuesday Night at Northcote', 'The Jungle Giants performing at Northcote Social Club. Tickets and info.', '2025-11-04 20:30:00', 'https://www.example.com/events/dd0ee87a-f004-47d6-8823-3a60e621fee7', 'https://tickets.example.com/dd0ee87a-f004-47d6-8823-3a60e621fee7'),
+('50711ff2-4a46-44c9-92d7-7355b861dd9d', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'Meg Mac — Tuesday Tunes at The Evelyn Hotel', 'Meg Mac performing at The Evelyn Hotel. Tickets and info.', '2025-11-04 21:30:00', 'https://www.example.com/events/50711ff2-4a46-44c9-92d7-7355b861dd9d', 'https://tickets.example.com/50711ff2-4a46-44c9-92d7-7355b861dd9d'),
+
+-- Wednesday Nov 5
+('1f07b7d9-51bb-4a6e-b592-a5b8147d6365', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'f6a7b8c9-0123-4d45-4e67-890abcdef123', 'Alex Lahey — Midweek Show at The Evelyn Hotel', 'Alex Lahey performing at The Evelyn Hotel. Tickets and info.', '2025-11-05 19:00:00', 'https://www.example.com/events/1f07b7d9-51bb-4a6e-b592-a5b8147d6365', 'https://tickets.example.com/1f07b7d9-51bb-4a6e-b592-a5b8147d6365'),
+('17a136dd-44f5-43eb-9e3f-62bff9f78cc0', '7f8eec22-84af-49ef-987d-b8f7c79a16c4', 'e1f2a3b4-5678-4cde-9f01-234567890abc', 'Stella Donnelly — Wednesday at Northcote', 'Stella Donnelly performing at Northcote Social Club. Tickets and info.', '2025-11-05 20:00:00', 'https://www.example.com/events/17a136dd-44f5-43eb-9e3f-62bff9f78cc0', NULL),
+('ba3c4e4d-31de-4b73-90b5-ddc762ef0025', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'c1d2e3f4-5678-4abc-9def-0123456789ab', 'Rolling Blackouts Coastal Fever — Midweek at Corner Hotel', 'Rolling Blackouts performing at Corner Hotel. Tickets and info.', '2025-11-05 21:00:00', 'https://www.example.com/events/ba3c4e4d-31de-4b73-90b5-ddc762ef0025', NULL),
+
+-- Thursday Nov 6
+('2d98b7bd-56ee-4c98-a6da-a773e72d54fb', '1a3c5e7f-9b2d-4c1e-bf4e-82f54c6a47e3', 'b2c3d4e5-6789-4f01-0a23-4567890abcde', 'Hockey Dad — Thursday Night at The Tote', 'Hockey Dad performing at The Tote. Tickets and info.', '2025-11-06 18:00:00', 'https://www.example.com/events/2d98b7bd-56ee-4c98-a6da-a773e72d54fb', 'https://tickets.example.com/2d98b7bd-56ee-4c98-a6da-a773e72d54fb'),
+('a20e04a2-f15e-466c-90d4-db6673a2563f', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'Mallrat — Thursday at The Evelyn Hotel', 'Mallrat performing at The Evelyn Hotel. Tickets and info.', '2025-11-06 19:00:00', 'https://www.example.com/events/a20e04a2-f15e-466c-90d4-db6673a2563f', NULL),
+('fdb80c56-af57-4ed4-b315-298e46b2af65', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'd4e5f6a7-1234-4bcd-8ef0-9876543210ab', 'G Flip — Thursday Live at Corner Hotel', 'G Flip performing at Corner Hotel. Tickets and info.', '2025-11-06 20:00:00', 'https://www.example.com/events/fdb80c56-af57-4ed4-b315-298e46b2af65', 'https://tickets.example.com/fdb80c56-af57-4ed4-b315-298e46b2af65'),
+('f25a8113-5152-45cf-a13e-0ccf52f3c25c', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'c1d2e3f4-5678-4abc-9def-0123456789ab', 'Thelma Plum — Thursday Special at Corner Hotel', 'Thelma Plum performing at Corner Hotel. Tickets and info.', '2025-11-06 21:30:00', 'https://www.example.com/events/f25a8113-5152-45cf-a13e-0ccf52f3c25c', 'https://tickets.example.com/f25a8113-5152-45cf-a13e-0ccf52f3c25c'),
+
+-- Friday Nov 7
+('dcf56532-f899-4e77-8c1f-662b111d02c9', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'Tones And I — Friday Feature at The Evelyn Hotel', 'Tones And I performing at The Evelyn Hotel. Tickets and info.', '2025-11-07 17:00:00', 'https://www.example.com/events/dcf56532-f899-4e77-8c1f-662b111d02c9', NULL),
+('86b2285f-9003-45a3-8c0f-1aa385325f28', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'f6a7b8c9-0123-4d45-4e67-890abcdef123', 'Amber Drift — Friday Warmup at The Evelyn Hotel', 'Amber Drift performing at The Evelyn Hotel. Tickets and info.', '2025-11-07 18:00:00', 'https://www.example.com/events/86b2285f-9003-45a3-8c0f-1aa385325f28', 'https://tickets.example.com/86b2285f-9003-45a3-8c0f-1aa385325f28'),
+('cc2554e9-99a6-4d7f-b439-2685a2d1577d', '4e83c251-56d2-4f8e-8dc0-367e2e87e7d9', 'e5f6a7b8-9012-4c34-3d56-7890abcdef12', 'Mallrat — Late Friday at The Evelyn Hotel', 'Mallrat performing late at The Evelyn Hotel. Tickets and info.', '2025-11-07 19:00:00', 'https://www.example.com/events/cc2554e9-99a6-4d7f-b439-2685a2d1577d', 'https://tickets.example.com/cc2554e9-99a6-4d7f-b439-2685a2d1577d'),
+('b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32', '3f6a56b1-4d3a-4d26-8f6a-f9e68a03a2d7', 'd4e5f6a7-1234-4bcd-8ef0-9876543210ab', 'King Stingray — Friday Main at Corner Hotel', 'King Stingray performing at Corner Hotel. Tickets and info.', '2025-11-07 19:30:00', 'https://www.example.com/events/b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32', 'https://tickets.example.com/b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32'),
+('2a6d9f7b-8b44-40f6-b7f8-4f8a8ecb6d14', 'e3b0c442-98fc-1c14-9afb-4c1f1b6e8b8a', 'b7f9c8e2-4a1d-4c2e-9a3b-2f7e6d5c1a9f', 'Teen Jesus and the Jean Teasers — Friday Riot at The Gasometer Hotel', 'Teen Jesus and the Jean Teasers performing at The Gasometer Hotel. Tickets and info.', '2025-11-07 20:30:00', 'https://www.example.com/events/2a6d9f7b-8b44-40f6-b7f8-4f8a8ecb6d14', 'https://tickets.example.com/2a6d9f7b-8b44-40f6-b7f8-4f8a8ecb6d14'),
+('9a1f0c8e-6f6e-4a52-8d80-95b1f2b441d9', 'd6b74a82-8c5a-41ac-bf29-72591c94f83d', 'c3d4e5f6-7890-4a12-1b34-567890abcdef', 'The Avalanches — Friday Night at Howler', 'The Avalanches performing at Howler. Tickets and info.', '2025-11-07 21:00:00', 'https://www.example.com/events/9a1f0c8e-6f6e-4a52-8d80-95b1f2b441d9', 'https://tickets.example.com/9a1f0c8e-6f6e-4a52-8d80-95b1f2b441d9');
+

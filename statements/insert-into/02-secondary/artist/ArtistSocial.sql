@@ -1,5 +1,5 @@
 INSERT INTO ArtistSocial (ArtistID, SocialPlatform, Handle, URL)
-VALUES
+VALUES 
     -- The Amazing Devil
     ('b7e8e7e2-7c6a-4e2e-9c2a-1a2b3c4d5e6f', 'Website', 'theamazingdevil.com', 'https://theamazingdevil.com/'),
     ('b7e8e7e2-7c6a-4e2e-9c2a-1a2b3c4d5e6f', 'Facebook', 'theamazingdevil', 'https://www.facebook.com/theamazingdevil'),
