@@ -56,7 +56,7 @@ VALUES
 ('50711ff2-4a46-44c9-92d7-7355b861dd9d', 'Online', 18.00),
 
 -- Wednesday Nov 5
-('1f07b607a-9016-4513-8698-b5b7402271c7', 'General Admission', 35.00),
+('1f07b7d9-51bb-4a6e-b592-a5b8147d6365', 'General Admission', 35.00),
 
 ('17a136dd-44f5-43eb-9e3f-62bff9f78cc0', 'General Admission', 0.00),
 
