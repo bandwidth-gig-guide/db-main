@@ -1,8 +1,8 @@
-CREATE TABLE ArticleStore (
-    ArticleID UUID,
-    StoreID UUID,
-    DisplayOrder INTEGER NOT NULL,
-    PRIMARY KEY (ArticleID, StoreID, DisplayOrder),
-    FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
-    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
-);
+-- CREATE TABLE ArticleStore (
+--     ArticleID UUID,
+--     StoreID UUID,
+--     DisplayOrder INTEGER NOT NULL,
+--     PRIMARY KEY (ArticleID, StoreID, DisplayOrder),
+--     FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
+--     FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
+-- );

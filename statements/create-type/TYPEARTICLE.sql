@@ -1,13 +1,13 @@
-CREATE TYPE TYPEARTICLE AS ENUM (
-    'Event Review',
-    'Artist Review',
-    'Venue Review',
-    'Editorial',
-    'Local Politics',
-    'Charity',
-    'Interview',
-    'Announcement',
-    'Feature',
-    'Opinion',
-    'Guide'
-);
+-- CREATE TYPE TYPEARTICLE AS ENUM (
+--     'Event Review',
+--     'Artist Review',
+--     'Venue Review',
+--     'Editorial',
+--     'Local Politics',
+--     'Charity',
+--     'Interview',
+--     'Announcement',
+--     'Feature',
+--     'Opinion',
+--     'Guide'
+-- );

@@ -1,6 +1,6 @@
-CREATE TABLE StoreType (
-    StoreID UUID,
-    Type TYPESTORE NOT NULL,
-    PRIMARY KEY (StoreID, Type),
-    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
-);
+-- CREATE TABLE StoreType (
+--     StoreID UUID,
+--     Type TYPESTORE NOT NULL,
+--     PRIMARY KEY (StoreID, Type),
+--     FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
+-- );

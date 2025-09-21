@@ -1,8 +1,8 @@
-CREATE TABLE AccountEventViewed (
-    AccountID UUID,
-    EventID UUID,
-    DateTimeViewed TIMESTAMP DEFAULT NOW(),
-    PRIMARY KEY (AccountID, EventID),
-    FOREIGN KEY (AccountID) REFERENCES Event(EventID) ON DELETE CASCADE,
-    FOREIGN KEY (EventID) REFERENCES Event(EventID) ON DELETE CASCADE
-);
+-- CREATE TABLE AccountEventViewed (
+--     AccountID UUID,
+--     EventID UUID,
+--     DateTimeViewed TIMESTAMP DEFAULT NOW(),
+--     PRIMARY KEY (AccountID, EventID),
+--     FOREIGN KEY (AccountID) REFERENCES Event(EventID) ON DELETE CASCADE,
+--     FOREIGN KEY (EventID) REFERENCES Event(EventID) ON DELETE CASCADE
+-- );
