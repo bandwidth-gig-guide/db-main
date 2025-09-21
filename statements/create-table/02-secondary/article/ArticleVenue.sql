@@ -1,8 +1,8 @@
-CREATE TABLE ArticleVenue (
-    ArticleID UUID,
-    VenueID UUID,
-    DisplayOrder INTEGER NOT NULL,
-    PRIMARY KEY (ArticleID, VenueID, DisplayOrder),
-    FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
-    FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
-);
+-- CREATE TABLE ArticleVenue (
+--     ArticleID UUID,
+--     VenueID UUID,
+--     DisplayOrder INTEGER NOT NULL,
+--     PRIMARY KEY (ArticleID, VenueID, DisplayOrder),
+--     FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
+--     FOREIGN KEY (VenueID) REFERENCES Venue(VenueID) ON DELETE CASCADE
+-- );

@@ -1,6 +1,6 @@
-CREATE TABLE StoreTag(
-    StoreID UUID,
-    Tag TAG NOT NULL,
-    PRIMARY KEY (StoreID, Tag),
-    FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
-);
+-- CREATE TABLE StoreTag(
+--     StoreID UUID,
+--     Tag TAG NOT NULL,
+--     PRIMARY KEY (StoreID, Tag),
+--     FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE
+-- );

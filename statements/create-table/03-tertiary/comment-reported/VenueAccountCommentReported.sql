@@ -1,8 +1,8 @@
-CREATE TABLE VenueAccountCommentReported (
-    ReportingAccountID UUID,
-    CommentID UUID,
-    DateTimeReported TIMESTAMP NOT NULL DEFAULT NOW(),
-    PRIMARY KEY (ReportingAccountID, CommentID, DateTimeReported),
-    FOREIGN KEY (ReportingAccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
-    FOREIGN KEY (CommentID) REFERENCES VenueAccountComment(CommentID) ON DELETE CASCADE
-);
+-- CREATE TABLE VenueAccountCommentReported (
+--     ReportingAccountID UUID,
+--     CommentID UUID,
+--     DateTimeReported TIMESTAMP NOT NULL DEFAULT NOW(),
+--     PRIMARY KEY (ReportingAccountID, CommentID, DateTimeReported),
+--     FOREIGN KEY (ReportingAccountID) REFERENCES Account(AccountID) ON DELETE CASCADE,
+--     FOREIGN KEY (CommentID) REFERENCES VenueAccountComment(CommentID) ON DELETE CASCADE
+-- );

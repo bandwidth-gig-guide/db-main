@@ -1,6 +1,6 @@
-CREATE TYPE TYPELESSON AS ENUM (
-    'Private',
-    'Group',
-    'Academy',
-    'In-Home'
-);
+-- CREATE TYPE TYPELESSON AS ENUM (
+--     'Private',
+--     'Group',
+--     'Academy',
+--     'In-Home'
+-- );

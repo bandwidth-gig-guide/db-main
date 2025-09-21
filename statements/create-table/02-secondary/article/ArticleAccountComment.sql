@@ -1,10 +1,10 @@
-CREATE TABLE ArticleAccountComment (
-    CommentID UUID DEFAULT uuid_generate_v4(),
-    ArticleID UUID,
-    AccountID UUID,
-    DateTime TIMESTAMP DEFAULT NOW(),
-    Comment TEXT NOT NULL,
-    PRIMARY KEY (CommentID),
-    FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
-    FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE
-);
+-- CREATE TABLE ArticleAccountComment (
+--     CommentID UUID DEFAULT uuid_generate_v4(),
+--     ArticleID UUID,
+--     AccountID UUID,
+--     DateTime TIMESTAMP DEFAULT NOW(),
+--     Comment TEXT NOT NULL,
+--     PRIMARY KEY (CommentID),
+--     FOREIGN KEY (ArticleID) REFERENCES Article(ArticleID) ON DELETE CASCADE,
+--     FOREIGN KEY (AccountID) REFERENCES Account(AccountID) ON DELETE CASCADE
+-- );

@@ -43,6 +43,4 @@ VALUES
 ('dcf56532-f899-4e77-8c1f-662b111d02c9', 'Facebook', 'Facebook', 'https://www.facebook.com/'),
 ('86b2285f-9003-45a3-8c0f-1aa385325f28', 'Instagram', 'Instagram', 'https://www.instagram.com/'),
 ('cc2554e9-99a6-4d7f-b439-2685a2d1577d', 'Website', 'Website', 'https://www.example.com/'),
-('b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32', 'Facebook', 'Facebook', 'https://www.facebook.com/'),
-('2a6d9f7b-8b44-40f6-b7f8-4f8a8ecb6d14', 'Instagram', 'Instagram', 'https://www.instagram.com/'),
-('9a1f0c8e-6f6e-4a52-8d80-95b1f2b441d9', 'Website', 'Website', 'https://www.example.com/');
+('b3b1c6e2-9f2d-4380-8d05-3c4fe3a20f32', 'Facebook', 'Facebook', 'https://www.facebook.com/');

@@ -1,7 +1,7 @@
-CREATE TABLE TeacherStoreLocation (
-    TeacherID UUID,
-    StoreLocationID UUID,
-    PRIMARY KEY (TeacherID, StoreLocationID),
-    FOREIGN KEY (TeacherID) REFERENCES Teacher(TeacherID) ON DELETE CASCADE,
-    FOREIGN KEY (StoreLocationID) REFERENCES StoreLocation(StoreLocationID) ON DELETE CASCADE
-);
+-- CREATE TABLE TeacherStoreLocation (
+--     TeacherID UUID,
+--     StoreLocationID UUID,
+--     PRIMARY KEY (TeacherID, StoreLocationID),
+--     FOREIGN KEY (TeacherID) REFERENCES Teacher(TeacherID) ON DELETE CASCADE,
+--     FOREIGN KEY (StoreLocationID) REFERENCES StoreLocation(StoreLocationID) ON DELETE CASCADE
+-- );
