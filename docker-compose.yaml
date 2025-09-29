@@ -1,12 +1,13 @@
 services:
   db-main:
-    build: .
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     container_name: db-main
-    ports:
-      - "5432:5432"
-    networks:
-      - network-bandwidth
+    env_file:
+      - dev.env
+    volumes:
+      - db-main-data:/var/lib/postgresql/data
 
-networks:
-  network-bandwidth:
-    driver: bridge 
+volumes:
+  db-main-data:
