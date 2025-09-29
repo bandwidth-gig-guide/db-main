@@ -1,7 +1,20 @@
 #!/bin/bash
+set -e
 
-DB_NAME="db-main"
-DB_USER="root"
+DB_NAME="${POSTGRES_DB}"
+DB_USER="${POSTGRES_USER}"
+DB_PASSWORD="${POSTGRES_PASSWORD}"
+
+echo "--- Using Variables"
+echo "DB_NAME: $DB_NAME"
+echo "DB_USER: $DB_USER"
+echo "DB_PASSWORD: ${DB_PASSWORD:0:3}$(printf '%*s' $((${#DB_PASSWORD}-3)) '' | tr ' ' '*')"
+
+until psql -U "$DB_USER" -d "$DB_NAME" -c '\q' 2>/dev/null
+do
+  echo "Postgres is unavailable - sleeping"
+  sleep 1
+done
 
 log() {
   local step="$1"
@@ -23,7 +36,7 @@ echo ""
 # Create Extensions
 echo "--- CREATING EXTENSIONS"
 
-for file in /docker-entrypoint-initdb.d/create-extension/*
+for file in /docker-entrypoint-initdb.d/create-extension/* 
 do
   [ -e "$file" ] || continue
   log "01" "$file"
@@ -36,7 +49,7 @@ wait
 # Create Types
 echo "--- CREATING TYPES"
 
-for file in /docker-entrypoint-initdb.d/create-type/*
+for file in /docker-entrypoint-initdb.d/create-type/* 
 do
   [ -e "$file" ] || continue
   log "02" "$file"
@@ -61,7 +74,7 @@ do
       log "03" "$file"
       execute "$file"
     done
-  echo ""
+    echo ""
   done
 done
 
@@ -83,6 +96,6 @@ do
       log "04" "$file"
       execute "$file"
     done
-  echo ""
+    echo ""
   done
 done
