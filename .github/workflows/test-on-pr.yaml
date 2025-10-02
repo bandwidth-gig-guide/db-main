@@ -20,7 +20,7 @@ jobs:
       - name: Test Docker image
         run: |
           docker run -d --name test test-image
-          sleep 5
+          sleep 30
           if ! docker ps | grep test; then
             echo "Container failed to start!" && exit 1
           fi
