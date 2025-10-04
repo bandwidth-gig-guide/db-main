@@ -1,9 +1,0 @@
-CREATE TABLE ArtistFeatured (
-    ArtistID UUID,
-    ImageID UUID,
-    StartDateTime TIMESTAMP NOT NULL,
-    EndDateTime TIMESTAMP NOT NULL,
-    PRIMARY KEY (ArtistID),
-    FOREIGN KEY (ArtistID) REFERENCES Artist(ArtistID) ON DELETE CASCADE,
-    FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
-);

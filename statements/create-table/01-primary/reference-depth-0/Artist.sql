@@ -7,5 +7,6 @@ CREATE TABLE Artist (
     YearFounded INTEGER NOT NULL,
     Description TEXT NOT NULL,
     SpotifyEmbedURL TEXT,
-    YoutubeEmbedURL TEXT
+    YoutubeEmbedURL TEXT,
+    IsFeatured BOOLEAN DEFAULT FALSE
 );

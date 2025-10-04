@@ -1,9 +1,0 @@
--- CREATE TABLE StoreFeatured (
---     StoreID UUID,
---     ImageID UUID,
---     StartDateTime TIMESTAMP NOT NULL,
---     EndDateTime TIMESTAMP NOT NULL,
---     PRIMARY KEY (StoreID),
---     FOREIGN KEY (StoreID) REFERENCES Store(StoreID) ON DELETE CASCADE,
---     FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
--- );

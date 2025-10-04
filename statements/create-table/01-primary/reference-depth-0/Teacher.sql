@@ -10,5 +10,6 @@
 --     City VARCHAR(100) NOT NULL,
 --     StateCode STATECODE NOT NULL,
 --     PostCode INTEGER NOT NULL,
---     WebsiteURL TEXT
+--     WebsiteURL TEXT,
+--     IsFeatured BOOLEAN DEFAULT FALSE
 -- );

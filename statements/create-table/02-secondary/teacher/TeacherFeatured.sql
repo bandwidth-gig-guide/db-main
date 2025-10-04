@@ -1,9 +1,0 @@
--- CREATE TABLE TeacherFeatured (
---     TeacherID UUID,
---     ImageID UUID,
---     StartDateTime TIMESTAMP NOT NULL,
---     EndDateTime TIMESTAMP NOT NULL,
---     PRIMARY KEY (TeacherID),
---     FOREIGN KEY (TeacherID) REFERENCES Teacher(TeacherID) ON DELETE CASCADE,
---     FOREIGN KEY (ImageID) REFERENCES Image(ImageID) ON DELETE CASCADE
--- );
