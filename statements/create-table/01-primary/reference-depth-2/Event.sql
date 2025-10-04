@@ -6,5 +6,6 @@ CREATE TABLE Event (
     Description TEXT NOT NULL,
     StartDateTime TIMESTAMP NOT NULL,
     OriginalPostURL TEXT NOT NULL,
-    TicketSaleURL TEXT
+    TicketSaleURL TEXT,
+    IsFeatured BOOLEAN DEFAULT FALSE
 );

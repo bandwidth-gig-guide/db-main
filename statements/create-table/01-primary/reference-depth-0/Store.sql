@@ -7,5 +7,6 @@
 --     PostCode INTEGER NOT NULL,
 --     Description TEXT NOT NULL,
 --     WebsiteURL TEXT,
---     PhoneNumber VARCHAR(20) NOT NULL
+--     PhoneNumber VARCHAR(20) NOT NULL,
+--     IsFeatured BOOLEAN DEFAULT FALSE
 -- );
