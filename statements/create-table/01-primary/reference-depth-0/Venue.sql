@@ -9,5 +9,6 @@ CREATE TABLE Venue (
     WebsiteURL TEXT,
     PhoneNumber VARCHAR(20) NOT NULL,
     GoogleMapsEmbedURL TEXT NOT NULL,
-    IsFeatured BOOLEAN DEFAULT FALSE
+    IsFeatured BOOLEAN DEFAULT FALSE,
+    IsMonitored BOOLEAN DEFAULT FALSE
 );
