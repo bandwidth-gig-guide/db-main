@@ -1,3 +1,4 @@
 .env
 .vscode
 .$erd.drawio.bkp
+*.DS_Store
