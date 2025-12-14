@@ -8,5 +8,6 @@ CREATE TABLE Artist (
     Description TEXT NOT NULL,
     SpotifyEmbedURL TEXT,
     YoutubeEmbedURL TEXT,
-    IsFeatured BOOLEAN DEFAULT FALSE
+    IsFeatured BOOLEAN DEFAULT FALSE,
+    IsResearched BOOLEAN DEFAULT TRUE
 );
